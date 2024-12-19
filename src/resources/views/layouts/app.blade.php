@@ -15,7 +15,7 @@
     <header class="header">
         <div class="header__inner">
         <div class="header-utilities">
-            <a class="header__logo" href="/">COACHTECH</a>
+            <a class="header__logo" href="/"><img src="{{ asset('images/logo.svg') }}" alt="アイコン" class="header__logo-icon"></a>
             <nav>
                 <ul class="header-nav">
                     @if (Auth::check())

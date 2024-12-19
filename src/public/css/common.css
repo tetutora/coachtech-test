@@ -1,0 +1,28 @@
+@media screen and (max-width: 1540px) {
+    body {
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        color: red;
+    }
+}
+
+.header{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.header__logo-icon{
+    padding: 20px 10px;
+}
+
+
