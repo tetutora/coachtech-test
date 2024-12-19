@@ -16,7 +16,7 @@
         <div class="header__inner">
         <div class="header-utilities">
             <a class="header__logo" href="/"><img src="{{ asset('images/logo.svg') }}" alt="アイコン" class="header__logo-icon"></a>
-            <nav>
+            <!-- <nav>
                 <ul class="header-nav">
                     @if (Auth::check())
                     <li class="header-nav__item">
@@ -30,7 +30,7 @@
                     </li>
                     @endif
                 </ul>
-            </nav>
+            </nav> -->
         </div>
         </div>
     </header>
